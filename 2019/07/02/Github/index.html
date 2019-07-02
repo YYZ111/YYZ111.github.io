@@ -6,19 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://YYZ111.github.io">
-  <title>关于 | 入世</title>
+  <title>Github的学习和使用 | 入世</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="只缘感君一回顾，使我思君朝与暮">
-<meta property="og:type" content="website">
-<meta property="og:title" content="关于">
-<meta property="og:url" content="https://YYZ111.github.io/about/index.html">
+  <meta name="description" content="计划  是什么  为什么  怎么办">
+<meta name="keywords" content="Github">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Github的学习和使用">
+<meta property="og:url" content="https://YYZ111.github.io/2019/07/02/Github/index.html">
 <meta property="og:site_name" content="入世">
-<meta property="og:description" content="只缘感君一回顾，使我思君朝与暮">
+<meta property="og:description" content="计划  是什么  为什么  怎么办">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-13T06:11:56.848Z">
+<meta property="og:image" content="https://i.loli.net/2019/03/23/5c95c5f81bba4.gif">
+<meta property="og:image" content="https://i.loli.net/2019/03/21/5c9360a939fff.png">
+<meta property="og:updated_time" content="2019-06-28T02:19:02.134Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于">
-<meta name="twitter:description" content="只缘感君一回顾，使我思君朝与暮">
+<meta name="twitter:title" content="Github的学习和使用">
+<meta name="twitter:description" content="计划  是什么  为什么  怎么办">
+<meta name="twitter:image" content="https://i.loli.net/2019/03/23/5c95c5f81bba4.gif">
   
   
     <link rel="icon" href="/assets/img/favicon.ico">
@@ -172,27 +176,58 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="about-" class="article article-type-about " itemscope itemprop="blogPost">
+            <article id="post-Github" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      关于
+      Github的学习和使用
     </h1>
   
 
         
-        <a href="/about/index.html" class="archive-article-date">
-  	<time datetime="2019-03-10T09:58:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-10</time>
+        <a href="/2019/07/02/Github/" class="archive-article-date">
+  	<time datetime="2019-07-02T14:00:45.681Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-02</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <div align="center"><img src="https://i.loli.net/2019/03/23/5c95c5f81bba4.gif" width="60%" height="50%"></div>
+
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ul>
+<li><input checked disabled type="checkbox"> 是什么</li>
+<li><input disabled type="checkbox"> 为什么</li>
+<li><input disabled type="checkbox"> 怎么办</li>
+</ul>
+<a id="more"></a>
+
+<p><strong>1. <a href="https://blog.csdn.net/witnessai1/article/details/52551362" target="_blank" rel="noopener">Markdown语法-1</a></strong></p>
+<p><strong>2. <a href="https://blog.csdn.net/qcx321/article/details/53780672#8-文字超链inline方式" target="_blank" rel="noopener">Markdown语法-2</a></strong></p>
+<p><strong>3. <a href="https://www.yangzhiping.com/tech/github.html" target="_blank" rel="noopener">高效利用Github-1</a></strong></p>
+<p><strong>4. <a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="noopener">高效利用Github-2</a></strong>   </p>
+<h2 id="Github是啥"><a href="#Github是啥" class="headerlink" title="Github是啥"></a>Github是啥</h2><p>Github是一个基于git的代码托管平台，付费用户可以建私人仓库，免费用户穷逼只能使用公共仓库，也就是代码要公开。<br><del>Github上好东西好多的，开源库：BootStrap、Node.js、CoffeScript等</del></p>
+<blockquote>
+<p>watch、fork 牛人们<br>    对他们的项目提交pull request<br>    给牛人们的项目写wiki或提交测试用例或提问题.</p>
+</blockquote>
+<h2 id="工作流"><a href="#工作流" class="headerlink" title="工作流"></a>工作流</h2><p>本地仓库由git维护的三棵”树”组成。第一个是你的<strong>工作目录</strong>，它持有实际文件；第二个是<strong>暂存区（Index）</strong>，它像个缓存区域，临时保存你的改动；最后是 <strong>HEAD</strong>，它指向最后一次提交的结果。</p>
+<div align="center"><img src="https://i.loli.net/2019/03/21/5c9360a939fff.png" width="70%" height="50%"></div>
+***
+**提出更改（添加到暂存区）**
+
+<p><code>git add &lt;filename&gt;</code></p>
+<p><code>git add *</code></p>
+<p><strong>实际提交改动：</strong></p>
+<p><code>git commit -m &quot;代码提交信息&quot;</code></p>
+<p>（改动已提交到本地仓库的 HEAD中了，但是还没到你的远端仓库）</p>
+<p><strong>将改动提交到远端仓库：</strong></p>
+<p><code>git push origin master</code></p>
+<p>（可以把 master 换成你想要推送的任何分支）</p>
+<h2 id="分支（branch）"><a href="#分支（branch）" class="headerlink" title="分支（branch）"></a>分支（branch）</h2><p>分支是用来将特性开发绝缘开来的。在你创建仓库的时候，master 是“默认的”分支。在其他分支上进行开发，完成后再将它们合并到主分支上。</p>
+
       
 
       
@@ -231,6 +266,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Github</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -242,6 +288,16 @@
 </article>
 
   
+<nav id="article-nav">
+  
+  
+    <a href="/2019/07/02/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -255,6 +311,19 @@
             </div>
         </div>
         
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#计划"><span class="toc-number">1.</span> <span class="toc-text">计划</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Github是啥"><span class="toc-number">2.</span> <span class="toc-text">Github是啥</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#工作流"><span class="toc-number">3.</span> <span class="toc-text">工作流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#分支（branch）"><span class="toc-number">4.</span> <span class="toc-text">分支（branch）</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
         
     </div>
 </aside>
@@ -292,7 +361,7 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
