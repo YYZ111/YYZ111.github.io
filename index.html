@@ -58,11 +58,13 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/随笔/">随笔</a></li>
+				<li><a href="/archives/index.html">归档</a></li>
 	        
-				<li><a href="/MessageBoard/">留言</a></li>
+				<li><a href="/tags/index.html">随笔</a></li>
 	        
-				<li><a href="/aboutme/">吾身</a></li>
+				<li><a href="/MessageBoard/index.html">留言</a></li>
+	        
+				<li><a href="/aboutme/index.html">关于我</a></li>
 	        
 			</ul>
 		</nav>
@@ -124,6 +126,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -142,13 +146,15 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 25%"><a href="/">主页</a></li>
+					<li style="width: 20%"><a href="/">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 20%"><a href="/archives/index.html">归档</a></li>
 		        
-					<li style="width: 25%"><a href="/MessageBoard/">留言</a></li>
+					<li style="width: 20%"><a href="/tags/index.html">随笔</a></li>
 		        
-					<li style="width: 25%"><a href="/aboutme/">吾身</a></li>
+					<li style="width: 20%"><a href="/MessageBoard/index.html">留言</a></li>
+		        
+					<li style="width: 20%"><a href="/aboutme/index.html">关于我</a></li>
 		        
 				</ul>
 			</nav>
@@ -192,29 +198,7 @@
 <li><input disabled type="checkbox"> 为什么</li>
 <li><input disabled type="checkbox"> 怎么办</li>
 </ul>
-<p><strong>1. <a href="https://blog.csdn.net/witnessai1/article/details/52551362" target="_blank" rel="noopener">Markdown语法-1</a></strong></p>
-<p><strong>2. <a href="https://blog.csdn.net/qcx321/article/details/53780672#8-文字超链inline方式" target="_blank" rel="noopener">Markdown语法-2</a></strong></p>
-<p><strong>3. <a href="https://www.yangzhiping.com/tech/github.html" target="_blank" rel="noopener">高效利用Github-1</a></strong></p>
-<p><strong>4. <a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="noopener">高效利用Github-2</a></strong>   </p>
-<h2 id="Github是啥"><a href="#Github是啥" class="headerlink" title="Github是啥"></a>Github是啥</h2><p>Github是一个基于git的代码托管平台，付费用户可以建私人仓库，免费用户穷逼只能使用公共仓库，也就是代码要公开。<br><del>Github上好东西好多的，开源库：BootStrap、Node.js、CoffeScript等</del></p>
-<blockquote>
-<p>watch、fork 牛人们<br>    对他们的项目提交pull request<br>    给牛人们的项目写wiki或提交测试用例或提问题.</p>
-</blockquote>
-<h2 id="工作流"><a href="#工作流" class="headerlink" title="工作流"></a>工作流</h2><p>本地仓库由git维护的三棵”树”组成。第一个是你的<strong>工作目录</strong>，它持有实际文件；第二个是<strong>暂存区（Index）</strong>，它像个缓存区域，临时保存你的改动；最后是 <strong>HEAD</strong>，它指向最后一次提交的结果。</p>
-<div align="center"><img src="https://i.loli.net/2019/03/21/5c9360a939fff.png" width="70%" height="50%"></div>
-***
-**提出更改（添加到暂存区）**
-
-<p><code>git add &lt;filename&gt;</code></p>
-<p><code>git add *</code></p>
-<p><strong>实际提交改动：</strong></p>
-<p><code>git commit -m &quot;代码提交信息&quot;</code></p>
-<p>（改动已提交到本地仓库的 HEAD中了，但是还没到你的远端仓库）</p>
-<p><strong>将改动提交到远端仓库：</strong></p>
-<p><code>git push origin master</code></p>
-<p>（可以把 master 换成你想要推送的任何分支）</p>
-<h2 id="分支（branch）"><a href="#分支（branch）" class="headerlink" title="分支（branch）"></a>分支（branch）</h2><p>分支是用来将特性开发绝缘开来的。在你创建仓库的时候，master 是“默认的”分支。在其他分支上进行开发，完成后再将它们合并到主分支上。</p>
-
+        
       
 
       
@@ -288,19 +272,8 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3>
+        
       
 
       
@@ -363,60 +336,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <div align="center"><img src="http://po14va36g.bkt.clouddn.com/99.jpg" width="100%" height="80%"></div>
-
-<h2 id="1、一顿操作猛如虎"><a href="#1、一顿操作猛如虎" class="headerlink" title="1、一顿操作猛如虎"></a>1、一顿操作猛如虎</h2><p>  hexo clean</p>
-<p>  hexo generate</p>
-<p>  hexo s（本地预览）</p>
-<p>  hexo d（提交到远仓）</p>
-<h2 id="2、写作的一些说明"><a href="#2、写作的一些说明" class="headerlink" title="2、写作的一些说明"></a>2、写作的一些说明</h2><p>   执行命令：hexo new “xxxx”创建Markdown文件，在博客的source_posts文件夹下</p>
-<blockquote>
-<hr>
-</blockquote>
-<blockquote>
-<p>title: XXX<br>data: 2019-01-08<br>comments: true //评论<br>reward: true<br>top: false //置顶<br>toc: true //目录<br>tags: //标签  </p>
-</blockquote>
-<blockquote>
-<hr>
-</blockquote>
-<p>comments设置为true允许评论，若设置为false则不能评论  </p>
-<p>reward设置为true允许打赏，若设置为false则不能打赏，（注意对应主题的配置文件reward_type:  设置的为1）  </p>
-<p>在文章中加入<code>&lt;!-- more --&gt;</code>将文章截断显示在主页  </p>
-<p>node_modules：是依赖包</p>
-<p>public：存放的是生成的页面</p>
-<p>scaffolds：命令生成文章等的模板</p>
-<p>source：用命令创建的各种文章</p>
-<p>themes：主题</p>
-<p>_config.yml：整个博客的配置</p>
-<p>db.json：source解析所得到的</p>
-<p>package.json：项目所需模块项目的配置信息</p>
-<p>package-lock.json：在 <code>npm install</code>时候生成一份文件，用以记录当前状态下实际安装的各个<code>npm package</code>的具体来源和版本号。</p>
-<h2 id="3、搭桥到github"><a href="#3、搭桥到github" class="headerlink" title="3、搭桥到github"></a>3、搭桥到github</h2><p>  没账号的创建账号，有账号的看下面。</p>
-<p>  创建一个repo，名称为yourname.github.io, 其中yourname是你的github名称，按照这个规则创建才有用哦，如下：</p>
-<p><code>new-repo</code></p>
-<p><code>create-repo</code></p>
-<p>回到gitbash中，配置github账户信息（YourName和YourEail都替换成你自己的）：</p>
-<p>创建SSH</p>
-<p>在gitbash中输入：<code>ssh-keygen -t rsa -C &quot;youremail@example.com</code>，生成ssh。然后在C:/User/DevilYang/.ssh里找到id_rsa.pub文件的内容。</p>
-<p>将上面获取的ssh放到github中：</p>
-<p>settings —- ssh-key</p>
-<p>添加一个 New SSH key ，title随便取，key就填刚刚那一段。</p>
-<p>在gitbash中验证是否添加成功：ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a></p>
-<h2 id="4、Markdown操作"><a href="#4、Markdown操作" class="headerlink" title="4、Markdown操作"></a>4、Markdown操作</h2><h3 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h3><pre><code>&lt;font face=&quot;黑体&quot;&gt;我是黑体字&lt;/font&gt;
-&lt;font face=&quot;微软雅黑&quot;&gt;我是微软雅黑&lt;/font&gt;
-&lt;font face=&quot;STCAIYUN&quot;&gt;我是华文彩云&lt;/font&gt;
-&lt;font color=red&gt;我是红色&lt;/font&gt;
-&lt;font color=#008000&gt;我是绿色&lt;/font&gt;
-&lt;font color=Blue&gt;我是蓝色&lt;/font&gt;
-&lt;font size=5&gt;我是尺寸&lt;/font&gt;
-&lt;font face=&quot;黑体&quot; color=green size=5&gt;我是黑体，绿色，尺寸为5&lt;/font&gt;
-&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=yellow&gt;背景色yellow&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; //字体背景颜色</code></pre><p><font color="red">我是红色</font><br><font face="STCAIYUN">我是华文彩云</font>  </p>
-<table><tr><td bgcolor="yellow">背景色yellow</td></tr></table>  
-
-<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><h5 id="设置图片百分比、大小"><a href="#设置图片百分比、大小" class="headerlink" title="设置图片百分比、大小"></a>设置图片百分比、大小</h5><p><code>&lt;img src=&quot;http://pic11.photophoto.cn/20090626/0036036341009653_b.jpg&quot; width=&quot;10%&quot; height=&quot;10%&quot;&gt;</code>  </p>
-<h5 id="图片居中-center-、居右（right-、居左（left）"><a href="#图片居中-center-、居右（right-、居左（left）" class="headerlink" title="图片居中(center)、居右（right)、居左（left）"></a>图片居中(center)、居右（right)、居左（left）</h5><p><code>&lt;div align=right&gt;&lt;img src=&quot;http://pic11.photophoto.cn/20090626/0036036341009653_b.jpg&quot; width=&quot;50%&quot; height=&quot;50%&quot;&gt;&lt;/div&gt;</code>  </p>
-<p>微博uid:<a href="http://weibo.com/6568167684" target="_blank" rel="noopener">http://weibo.com/6568167684</a></p>
-<p>mid:4348987244565765</p>
-
+        
       
 
       
@@ -493,15 +413,8 @@
 
 
 <p>　　<del>若不能为神仙</del>,那就变成妖怪吧。</p>
-<p>　　仗着一般人看不到的便利可以肆无忌惮地为非作歹，跟着心爱的美少年一步之遥的距离看着他去上学，心情不好就偶尔把自己奇形怪状的尊容露出来吓唬吓唬路人甲以求得心理平衡——总之只要和大部分妖怪和睦相处，切记看到夏目玲子立马绕道而行的话，做妖怪的日子还是很快乐的。</p>
-<blockquote>
-<p>　　“是啊是啊，可能说两国的文化差异吧，到现在我都不明白为啥西湖断桥上那个穿白衣服的漂亮女人要为着一个毫无用处的懦弱男人舍弃成仙的机会，连妖怪都不做了，一心一意要变成人呢~”<br>  　　可能是，会寂寞吧。<br>　　神仙和妖怪的区别，除了居住地不同以外，可能就是神仙什么都能放下吧。把那些曾经深爱的喜爱的相爱的事情统统如同掸下肩膀的灰尘那样自身上掸落，轻飘飘地飞身到琼楼玉宇九重宫阙，自此忘记原本双脚扎根在土地上的事实，用悲悯而鄙视的眼光打量着曾经生活过的土地和土地上的人们。</p>
-</blockquote>
-<hr>
-<p>　　看着那些妖怪尽管容颜不老，可是无法阻止祭拜自己的女子从穿着校服裙的豆蔻年华变成微笑得满脸皱纹的奶奶——佛龛上的桃子应该说被精挑细选过的最符合自己尺寸，可是为什么受到祭拜的那个神明会越来越小呢？最终如清晨滴一滴露水被阳光蒸发，于一片灿烂的光晕中完成那个一辈子没有完成的对话。<br> 　　“今天天气很好呢~”<br> 　　“嗯，的确是这样呢。”<br> 　　还有那个害怕鬼怪，哭泣的样子一点都不美型的少女班长，因为堕落成妖怪的神明偶尔的帮助从此似乎变得胆大无比，用尽自己可以想象的办法只为了和他再见一面，虽然那个头顶那个若有若无的抚触之后是彼方的消亡——她或许没有看见，可是全部感知到了。<br> 　　“谢谢你。”<br> 　　曾经一步之遥会给自己送饭的男子变成了美中年，最终给他留下的回忆是祭典上那个“穿着蓝色浴衣微笑着不说话”的女子。<br> 还有看着夏目说“只要夏目不孤单，我一个人孤单”就可以的弱气总受狐狸君……</p>
-<hr>
-<p>　　是什么时候开始妖怪就变成了弱势群体呢？<br>　　不是玲子奶奶收服他们的那一刻吧<del>那时候拥有的应该说快乐才对。他们拥有无限的生命和无穷的记忆，除此之外无法摆脱。在漫长无极的永生中热情慢慢被折磨殆尽，或者以为在玲子的领导折磨下（特大谬误！）或许可以看到妖生中另外一面的风景，可是对不起，玲子忘记了。<br>　　不过一瞬间以后，再次被抛弃在时光滚滚的洪流中顺流逆流没有尽头。却抱着”玲子明天就回来找我“的念头不肯松手，宛若无用确实唯一可能得到救赎的稻草。<br>　　最后却是一句”玲子，已经没有关系了吗“变成了生命的收稍。<br>　　原来，这一生，便是如此过去了</del><br>　　“只是觉得大家都行走在寒风中，一起在屋檐下抽根烟，拥抱、亲吻、说话、沉默，于是拥有了短暂的温暖，借着这温暖再走一段路。也只是觉得大家都行走在寒风中，如果再多说一些话，可能就走不开了。”</p>
-
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=756701&auto=1&height=32"></iframe>
+        
       
 
       
@@ -577,6 +490,15 @@
     </div>
   </div>
 </footer>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+# PV方式，单个用户连续点击 n 篇，记录 n 次记录值
+<span id="busuanzi_container_site_pv">    本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+
+# UV方式，单个用户连续点击 n 篇，记录 1 次记录值
+<span id="busuanzi_container_site_uv">  本站访客数<span id="busuanzi_value_site_uv"></span>人次</span>
+
+# 使用 pv 记录方式，每访问一次，记录一次
+<span id="busuanzi_container_page_pv">  本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span>
     </div>
     <script>
 	var yiliaConfig = {
@@ -652,15 +574,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">夏目友人帐</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Github</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">瞎搞</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">夏目友人帐</a>
               </li>
             
             <div class="clearfix"></div>
